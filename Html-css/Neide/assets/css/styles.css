@@ -1,0 +1,18 @@
+.container {
+    position: relative;
+    text-align: center; /* Centraliza o conteúdo horizontalmente */
+  }
+  
+  #image {
+    display: block; /* Torna a imagem um bloco para que as margens automáticas funcionem */
+    margin: 0 auto; /* Centraliza a imagem horizontalmente */
+  }
+  
+  #texto {
+    position: absolute;
+    font-size: 32px;
+    top: 50%; /* Move o texto para o meio verticalmente */
+    left: 50%; /* Move o texto para o meio horizontalmente */
+    transform: translate(-50%, -50%); /* Corrige o centro com base no tamanho do texto */
+  }
+  
